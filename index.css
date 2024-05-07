@@ -1,0 +1,1002 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#4e2424;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: skyblue;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  .header-one{
+      background-color: #12a7bb;
+      align-items: center;
+      box-sizing: border-box;
+      color: rgb(49, 49, 51);
+      display: flex;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-bottom:16px ;
+      padding-top:16px ;
+      border-radius: 8px;
+      width: 1310px;
+     
+  }
+  
+  main {
+    padding: 20px;
+  }
+  .search-box {
+    width: 600px;
+    height: 36px;
+    margin-left: 200px;
+  }
+  .search-button {
+    background-color: orangered;
+    color: white;
+    height: 36px;
+    border: none;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+    transition: background-color 0.17s;
+    transition: color 0.17s;
+  }
+  .search-button:hover {
+    background-color: grey;
+    color: white;
+  }
+  .search-button:active {
+    opacity: 0.7s;
+  }
+  .account-button {
+    background-color: rgb(5, 165, 59);
+    height: 36px;
+    border: none;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.17s;
+    transition: color 0.17s;
+    margin-left: 5px;
+  }
+  .account-button:hover {
+    background-color: black;
+    color: white;
+  }
+  .account-button:active {
+    opacity: 0.6s;
+  }
+  .id-button {
+    color: white;
+    background-color: black;
+    height: 60px;
+    border: none;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 400px;
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+  .cart-button {
+    color: white;
+    background-color: rgb(5, 165, 59);
+    height: 36px;
+    border: none;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 400px;
+    transition: background-color 0.17s;
+    transition: color 0.17s;
+    margin-left:30px ;
+  }
+  .cart-button:hover {
+    background-color: rgb(46, 18, 18);
+    color: white;
+  }
+  .cart-button:hover:active {
+    opacity: 0.6s;
+  }
+  .help-button {
+    color: white;
+    background-color: rgb(5, 165, 59);
+    height: 36px;
+    border: none;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 400px;
+    transition: background-color 0.17s;
+    transition: color 0.17s;
+    margin-left: 30px;
+  }
+  .help-button:hover {
+    background-color: rgb(46, 18, 18);
+    color: white;
+  }
+  .help-button:hover:active {
+    opacity: 0.6s;
+  }
+  
+  
+  .info {
+    padding-right: 1px;
+    padding-left: 0px;
+    margin-right: 300px;
+  }
+  .information {
+    position: absolute;
+    background-color: #fff;
+    margin-left: 0px;
+    margin-right: px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 77px;
+    height: 350px;
+    width: 300px;
+    border-radius: 8px;
+  }
+  .information a {
+    text-decoration: none;
+    color: black;
+    margin: 3% 0;
+    font-weight: bold;
+  }
+  .pic {
+    display: flex;
+    padding-right: 1px;
+    padding-left: 200px;
+    margin-top: 2px;
+    margin-left: 200px;
+  }
+  .top-box {
+    background-color: blueviolet;
+    margin-bottom: 65px;
+    margin-left: 0px;
+    margin-right: 250px;
+    display: flex;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    height: 300px;
+    width: 712px;
+    border-radius: 5px;
+  }
+  .console {
+    width: 900px;
+    height: 80px;
+    margin-top: 55px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+  }
+  .meso{
+    font-size: xx-large;
+    padding-top: 60px;
+    font-weight: bold;
+  
+  }
+  .play{
+    border: 2px solid black;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    transition: background-color 0.16s;
+    transition: color 0.17s;
+  }
+  .play:hover{
+    background-color: #07001f;
+    color: white;
+  }
+  .category {
+    display: flex;
+    overflow-x: auto;
+    height: 300px;
+    background-color: aqua;
+    margin-bottom: 50px;
+    border-radius: 8px;
+  }
+  .sale {
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  .sale:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  .category h2 {
+    color: green;
+  }
+  .masimu {
+    display: flex;
+    height: 200px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 20px;
+    -ms-overflow-style: none;
+    background-color: rgb(15, 218, 15);
+    margin-bottom: 50px;
+  }
+  .gadget {
+    width: 300px;
+    height: 150px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .gadget:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  .gadget-2{
+      width: 300px;
+      height: 150px;
+      object-position: 100% 50%;
+      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 10px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+  }
+  .gadget-2:hover{
+      transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  .thumbnail {
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  .mail{
+    background-color: #0d31ea;
+    background-image: linear-gradient(43deg, #0dea44 0%, #19cdc9 30%, #6a12b3 66%, #d64144 100%);  
+      margin-bottom: 50px;
+      height: 300px;
+      align-items: center;
+  }
+  .subscribe{
+      text-align: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: sans-serif;
+      padding-top: 50px;
+      font-size: x-large;
+  }
+  .emal{
+      text-align: center;
+      justify-content: center;
+      margin-left: 530px;
+      border-radius: 4px;
+      width: 300px;
+      padding-top: 10px;
+      padding-bottom: 8px;
+      background-color: rgb(171, 171, 196);
+      margin-top: 30px;
+  }
+  
+  .sub{
+      font-size: 1.1rem;
+      padding: 8px 0;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      width: 20%;
+      background-color:rgb(5, 63, 23); 
+      color: white;
+      cursor: pointer;
+      transition: 0.9s;
+      display: block;
+      align-items: center;
+    margin-left: 555px;
+    margin-top: 30px;
+  
+  }
+  .sub:hover{
+      background: #07001f;
+      box-shadow: blue;
+  }
+  .check{
+  margin-top: 40px;
+  }
+  .place{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 50px;
+    background-color: #0d31ea;
+    background-image: linear-gradient(43deg, #0d31ea 0%,  22%, #2cb342 49%, 75%, #53e0dd 100%);
+    margin-left: 220px;
+    
+  }
+  .Location{
+    font-size:x-large;
+  }
+  .choose{
+    color: rgb(121, 74, 74);
+    width: 220px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #def0da;
+  }
+  .payment{
+    background-color: rgb(22, 14, 14);
+    width: 220px;
+    height: 200px;
+    margin-left: 150px;
+    border-radius: 8px;
+    border: 2px solid green;
+    color: white;
+  }
+  .confirm{
+    align-items: center;
+    margin-left: 60px;
+    border: 2px;
+    border-width: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.17s;
+    transition: color 0.17z;
+  }
+  .confirm:hover{
+    background-color: #4e2424;
+    color: white;
+    box-shadow: white;
+  }
+  .confirm:hover:active{
+    opacity: 0.6;
+    
+  }
+  .money{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-line {
+    background-color: rgb(83, 83, 87);
+    color: #ccc;
+    padding-left: 20px;
+  }
+  .footer-line a {
+    text-decoration: none;
+    color: aqua;
+    line-height: 25px;
+  }
+  .footer-line a:hover {
+    text-decoration: underline;
+  }
+  .footer-line a:active {
+    color: rgb(43, 255, 0);
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .col-1 ul li,
+  .col-2 ul li,
+  .col-3 ul li,
+  .col-4 ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .col-2 {
+    margin-right: 30%;
+  }
+  .col-4 {
+    margin-right: 27.2%;
+  }
+  .footer-end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+  }
+  .footer-selections {
+    cursor: pointer;
+  }
+  .end {
+    background-color: rgb(83, 83, 87);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    margin-left: -25px;
+  }
+  .follow-ups {
+    margin: 0% 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-img {
+    height: 40px;
+    width: 40px;
+  }
+  .copyryt {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .discount {
+    width: 300px;
+    height: 180px;
+    object-fit: contain;
+    object-position: 100% 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: relative;
+  }
+  
+  .heading{
+      font-weight: bold;
+      font-size: xx-large;
+      text-align: center;
+      font-family:comic sans;
+      color: #af9521;
+  
+  }
+  
+  .slider {
+    display: grid;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: 20px;
+    -ms-overflow-style: none;
+    background-color: orangered;
+    height: 600px;
+  }
+  .slider::-webkit-scrollbar-button {
+    display: flex;
+  }
+  
+  .slider img {
+    scroll-snap-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .input {
+    display: flex;
+  }
+  .lists {
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.17s;
+    transition: color 0.17s;
+  }
+  .lists:hover {
+    text-decoration: underline;
+  }
+  .lists:hover:active {
+    color: rgb(41, 212, 41);
+  }
+  .output {
+    color: white;
+  }
+  .button {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    bottom: 16px;
+    left: 116px;
+    background-color: rgb(29, 107, 47);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .disc:hover .button{
+      cursor: pointer;
+      opacity: 1;
+  }
+  
+  .disc{
+      position: relative;
+  }
+  
+  .iphon{
+     position: relative; 
+  }
+  .iphon:hover .button-iphone{
+      cursor: pointer;
+      opacity: 1;
+  }
+  .button-iphone{
+      width: 130px;
+    height: 50px;
+    position: absolute;
+    bottom: 16px;
+    left: 116px;
+    background-color: rgb(189, 191, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  
+  .thumbnail-one{
+      width: 300px;
+      height: 150px;
+      object-position: 100% 50%;
+      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 10px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;  
+  }
+  .thumbnail-one:hover{
+      transform: translateY(-10px);
+    cursor: pointer;
+  }
+  .gadget-3{
+      position:relative ;
+  }
+  .gadget-3:hover .button-samsung{
+      cursor: pointer;
+      opacity: 1;
+  }
+  .button-samsung{
+      width: 130px;
+      height: 50px;
+      position: absolute;
+      bottom: 16px;
+      left: 116px;
+      background-color: rgb(79, 168, 196);
+      font-weight: bold;
+      font-size: large;
+      border: 1px solid grey;
+      border-radius: 20px;
+      text-align: center;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.4s ease;
+  }
+  
+  .gadget-4{
+      width: 200px;
+      height: 150px;
+      object-position: 100% 50%;
+      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 10px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease; 
+  }
+  .gadget-4:hover{
+      transform: translateY(-10px);
+      cursor: pointer;
+  }
+  .pixel-8{
+      position: relative;
+  }
+  .pixel-8:hover .button-pixel{
+      cursor: pointer;
+      opacity: 1;
+  }
+  .button-pixel{
+      width: 90px;
+      height: 50px;
+      position: absolute;
+      bottom: 16px;
+      left: 70px;
+      background-color: grey;
+      font-weight: bold;
+      font-size: large;
+      border: 1px solid grey;
+      border-radius: 20px;
+      text-align: left;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.4s ease;
+  }
+  
+  
+  .gadget-5{
+      width: 300px;
+      height: 150px;
+      object-position: 100% 50%;
+      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 10px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+  }
+  .gadget-5:hover{
+      transform: translateY(-10px);
+      cursor: pointer;
+  }
+  .oneplus{
+      position: relative;
+  }
+  .oneplus:hover .button-oneplus{
+      cursor: pointer;
+      opacity: 1;
+  }
+  .button-oneplus{
+      width: 130px;
+      height: 50px;
+      position: absolute;
+      bottom: 16px;
+      left: 116px;
+      background-color: rgb(188, 231, 180);
+      font-weight: bold;
+      font-size: large;
+      border: 1px solid grey;
+      border-radius: 20px;
+      text-align: center;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.4s ease;
+  }
+  
+  .gadget-6{
+      width: 200px;
+      height: 150px;
+      object-position: 100% 50%;
+      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 10px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+  }
+  .gadget-6:hover{
+      transform: translateY(-10px);
+      cursor: pointer;
+  }
+  .flip{
+      position: relative;
+  }
+  .flip:hover .button-flip{
+      cursor: pointer;
+      opacity: 1;
+  }
+  .button-flip{
+      width: 90px;
+      height: 50px;
+      position: absolute;
+      bottom: 16px;
+      left: 70px;
+      background-color: rgb(115, 211, 77);
+      font-weight: bold;
+      font-size: large;
+      border: 1px solid grey;
+      border-radius: 20px;
+      text-align: center;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.4s ease;
+  }
+  
+  
+  .gadget-7{
+      width: 200px;
+      height: 150px;
+      object-position: 100% 50%;
+      margin-right: 10px;
+      margin-top: 16px;
+      margin-left: 10px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+  }
+  .gadget-7:hover{
+      transform: translateY(-10px);
+      cursor: pointer;
+  }
+  .camon{
+      position: relative;
+  }
+  .camon:hover .button-camon{
+      cursor: pointer;
+      opacity: 1;
+  }
+  .button-camon{
+      width: 90px;
+      height: 50px;
+      position: absolute;
+      bottom: 16px;
+      left: 70px;
+      background-color: rgb(238, 243, 209);
+      font-weight: bold;
+      font-size: large;
+      border: 1px solid grey;
+      border-radius: 20px;
+      text-align: center;
+      opacity: 0;
+      overflow: hidden;
+      transition: all 0.4s ease;
+  }
+  
+  
+  .button-showers{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    background-color: rgb(238, 243, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .shower{
+   position: relative; 
+  }
+  .shower:hover .button-showers{
+    cursor: pointer;
+    opacity: 1;  
+  }
+  .shower-1{
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .shower-1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  .button-showers1{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    background-color: rgb(238, 243, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  
+  .showers{
+   position: relative; 
+  }
+  .showers:hover .button-showers1{
+    cursor: pointer;
+    opacity: 1;  
+  }
+  .showers1{
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .showers1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  .button-kitchen1{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    background-color: rgb(238, 243, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .kitchen-01{
+    position: relative; 
+   }
+   .kitchen-01:hover .button-kitchen1{
+     cursor: pointer;
+     opacity: 1;  
+   }
+   .kitchen-1{
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .kitchen-1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .button-kitchen2{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    background-color: rgb(238, 243, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .kitchen-02{
+    position: relative; 
+   }
+   .kitchen-02:hover .button-kitchen2{
+     cursor: pointer;
+     opacity: 1;  
+   }
+   .kitchen-2{
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .kitchen-2:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  
+  .button-kitchen3{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    background-color: rgb(238, 243, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .kitchen-03{
+    position: relative; 
+   }
+   .kitchen-03:hover .button-kitchen3{
+     cursor: pointer;
+     opacity: 1;  
+   }
+   .kitchen-3{
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .kitchen-3:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  
+  
+  .button-kitchen4{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+    background-color: rgb(238, 243, 209);
+    font-weight: bold;
+    font-size: large;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .kitchen-04{
+    position: relative; 
+   }
+   .kitchen-04:hover .button-kitchen4{
+     cursor: pointer;
+     opacity: 1;  
+   }
+   .kitchen-4{
+    width: 300px;
+    height: 180px;
+    margin-top: 50px;
+    object-position: 100% 50%;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  .kitchen-4:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+
